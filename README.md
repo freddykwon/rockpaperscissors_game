@@ -1,1 +1,1 @@
-First JavaScript program built from scratch! 
+First JavaScript program built from scratch. A game of Rock, Paper or Scissors!
