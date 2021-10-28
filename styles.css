@@ -1,0 +1,52 @@
+body {
+background-color: #f7b380; 
+font-family: 'Monoton', cursive;
+font-family: 'Work Sans', sans-serif;
+text-align: center;
+} 
+
+#titleLogo {
+    font-size: 5rem;
+    color: white;
+}
+
+@media (max-width: 1500px) {
+    #titleLogo {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #titleLogo {
+        font-size: 3rem;
+    }
+}
+
+#eachRound{
+    margin: 2rem;
+    padding: 1rem;
+}
+#Choices {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+#Rock {
+    transition: all .1s ease-in-out;
+}
+#Rock:hover {
+    transform: scale(1.1);
+}
+#Paper {
+    transition: all .1s ease-in-out;
+}
+#Paper:hover {
+    transform: scale(1.1);
+}
+#Scissors {
+    transition: all .1s ease-in-out;
+}
+#Scissors:hover {
+    transform: scale(1.1);
+}
+
+
