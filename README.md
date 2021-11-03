@@ -3,5 +3,7 @@ First JavaScript program built as a part of The Odin Project. A game of Rock, Pa
 
 A classic game of Rock, Paper or Scissors built using HTML, CSS and JavaScript. 
 
+Live demo: https://freddykwon.github.io/rockpaperscissors_game/ 
+
 
 
