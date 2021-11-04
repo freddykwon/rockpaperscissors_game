@@ -1,7 +1,9 @@
 ## Description 
-First JavaScript program built as a part of The Odin Project. A game of Rock, Paper or Scissors! ** V1 incomplete-- still needs smoother UI. 
+A classic one-player game of Rock, Paper or Scissors built using HTML, CSS, Bootstrap and JavaScript. 
 
-A classic game of Rock, Paper or Scissors built using HTML, CSS and JavaScript. 
+## Instructions 
+Click one of three icons to start playing. The first player/computer to five (5) points wins the game! 
+
 
 Live demo: https://freddykwon.github.io/rockpaperscissors_game/ 
 
