@@ -1,5 +1,5 @@
 body {
-background-color: #f7b380; 
+background-color:#6c757d; 
 font-family: 'Monoton', cursive;
 font-family: 'Work Sans', sans-serif;
 text-align: center;
@@ -8,28 +8,82 @@ text-align: center;
 #titleLogo {
     font-size: 5rem;
     color: white;
+    margin-top: 5rem;
 }
 
 @media (max-width: 1500px) {
     #titleLogo {
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+    #Rock {
+        width: 20rem;
+        height:auto;
+    }
+    #Paper {
+        width: 20rem;
+        height:auto;
+    }
+    #Scissors {
+        width: 20rem;
+        height:auto;
     }
 }
 
 @media (max-width: 1000px) {
     #titleLogo {
         font-size: 3rem;
+    }  
+    #Rock {
+        width: 15rem;
+        height:auto
+    }
+    #Paper {
+        width: 15rem;
+        height:auto; 
+    }
+    #Scissors {
+        width: 15rem;
+        height:auto;
     }
 }
 
 #eachRound{
+    color: white;
     margin: 2rem;
     padding: 1rem;
 }
+
 #Choices {
-    margin-top: 6rem;
+    margin-top: 7rem;
     margin-bottom: 6rem;
 }
+
+@media (max-width: 800px) {
+    #titleLogo {
+        font-size: 1.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: -3rem;
+    }  
+    #Rock {
+        width: 8rem;
+        height:auto
+    }
+    #Paper {
+        width: 8rem;
+        height:auto; 
+    }
+    #Scissors {
+        width: 8rem;
+        height:auto;
+    }
+    #eachRound {
+        font-size: 15px;
+        margin-top: -5rem;
+        margin-bottom: -0.5rem;
+        /* position: relative; */
+    }
+}
+
 #Rock {
     transition: all .1s ease-in-out;
 }
